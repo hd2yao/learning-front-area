@@ -3,3 +3,28 @@ html {
 }
 
 /* Your CSS below here */
+div {
+  width: 200px; /* 合理的宽度，200像素左右 */
+  margin: auto; /* 合理的高度 */
+  line-height: 60px; /* 文本纵向居中 */
+
+  text-align: center; /* 居中文本 */
+  font-size: 1.125rem; /* 相对于基础字体大小，计算方法：18px / 16px = 1.125 */
+  color: white; /* 基础颜色，作为背景颜色和字体颜色 */
+  text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.5); /* 使用黑色文字阴影增加可读性 */
+
+  background-color: red; /* 基础颜色作为背景颜色 */
+  border-radius: 10px; /* 精巧的圆角边框 */
+  border: 1px solid #990000; /* 一个与基础颜色相近的1像素宽的实线边框，颜色稍深 */
+
+
+  background-image: linear-gradient(
+    to top left,
+    rgba(0, 0, 0, 0.2),
+    rgba(0, 0, 0, 0.2) 30%,
+    rgba(0, 0, 0, 0)
+  );
+  /* other effects */
+  box-shadow: inset 2px 2px 3px rgba(255, 255, 255, 0.6),
+    inset -2px -2px 3px rgba(0, 0, 0, 0.6), 2px 2px 5px black;
+}
